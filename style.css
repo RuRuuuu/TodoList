@@ -272,7 +272,7 @@ from{
         height: 230px;
       }
       .div-header{
-        gap:12rem;
+        gap:13rem;
         text-align: center;
         
          
@@ -280,7 +280,7 @@ from{
 
          .div2{
           width:360px;
-          margin-left:2.5rem;
+          margin-left:2.6rem;
          }
          .info{
           position: relative;
