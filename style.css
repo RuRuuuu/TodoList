@@ -7,6 +7,8 @@
     padding: 0;
     box-sizing: border-box;
 }
+          
+
 
 html{
     font-size: 61%;
@@ -39,6 +41,7 @@ html{
     opacity: 0;
     visibility: hidden;
   }
+     
 
    .container::after{
     content: "";
@@ -81,13 +84,32 @@ from{
     background-size: cover;
     
     
+    
 }
 
 #header1{
-  font-size: 4.5rem;
+  font-size: 3rem;
   font-weight: 900;
   color:white;
+  animation: animate 1s ease-in infinite;
+  
 }
+
+  
+ 
+@keyframes animate {
+  0%{
+    transform: scale(1.5,1.5);
+    color:#01fe87
+  }
+100%{
+    transform: scale(0,0);
+    color:white;
+  }
+  
+}
+
+
      
 .header-light{
     height:100%;
@@ -106,16 +128,13 @@ from{
         display: flex;
         justify-content: center;
         align-items: center;
-        gap:5rem;
+        gap:4rem;
         margin: auto;
         padding-top: 4rem;
         gap:35rem;
         padding-bottom: 13rem;
 }
-.div-header h1{
-    letter-spacing: 1rem;
-    
-}
+
 
 .div2{
     width:48%;
@@ -259,7 +278,7 @@ from{
       font-size: 1.6rem;
       color:white;
       width:40%;
-      margin-top: 23rem;
+      margin-top: 20rem;
       margin-left: 34rem;
    
     }
