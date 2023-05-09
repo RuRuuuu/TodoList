@@ -15,7 +15,7 @@ html{
   body{
     background-color:hsl(235, 21%, 11%) ;
       position: relative;
-    font-size: 2rem;
+    font-size: 2.5rem;
     font-family: 'Josefin Sans', sans-serif;
      font-family: 'Poppins', sans-serif;
      font-family: 'Roboto', sans-serif;    
@@ -118,7 +118,7 @@ from{
 }
 
 .div2{
-    width:44%;
+    width:48%;
     margin: auto;
     margin-top: -10.5rem;
     
@@ -136,13 +136,16 @@ from{
         background-color: hsl(235, 24%, 19%) ;
         border-bottom-left-radius: .3rem;
         border-bottom-right-radius:.3rem ;
+        font-size: 2.2rem;
    
       }
 
      .valida{
         display:flex;
-        gap:1.7rem;
+        gap:0.7rem;
+        font-size: 2.2rem;
      }
+     
 
      form{
         padding: 1rem;
@@ -270,6 +273,7 @@ from{
 
       .header-dark{
         height: 230px;
+        
       }
       .div-header{
         gap:13rem;
