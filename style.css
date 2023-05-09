@@ -269,7 +269,6 @@ from{
       
 
       .header-dark{
-        width:375px;
         height: 230px;
       }
       .div-header{
@@ -280,8 +279,8 @@ from{
       }
 
          .div2{
-          width:350px;
-          margin-left:1.3rem;
+          width:360px;
+          margin-left:2rem;
          }
          .info{
           position: relative;
