@@ -290,10 +290,10 @@ from{
           position: absolute;
           top: 7.5rem;
           right:0.01rem;
-          width:350px;
+          width:360px;
           background-color: hsl(235, 24%, 19%) ;
           justify-content: space-evenly;
-          padding: 1.2rem 1.2rem;
+          padding: 1.2rem 2rem;
           border-radius: 2px;
          }
 
