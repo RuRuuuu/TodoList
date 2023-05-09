@@ -266,12 +266,10 @@ from{
     
       
     @media(max-width : 576px) {
-      body{
-        width:100%;
-      }
+      
 
       .header-dark{
-        width:576px;
+        width:100%;
         height: 260px;
       }
       .div-header{
