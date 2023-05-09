@@ -88,10 +88,10 @@ from{
 }
 
 #header1{
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: 900;
   color:white;
-  animation: animate 1s ease-in infinite;
+  animation: animate 1.5s ease-in infinite;
   
 }
 
